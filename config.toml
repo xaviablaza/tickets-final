@@ -1,3 +1,22 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Tickets Final"
+theme = "hugo-ticket-theme"
+
+[params]
+    theme_color = "#574CDD"
+    description = "Tickets Final"
+    description_photo = "portfolio.jpg"
+    favicon = "favicon.png"
+
+[params.nav]
+    enable = false
+
+[params.tickets]
+    enable = true
+
+[params.header]
+    enable = false
+
+[params.footer]
+    enable = false
